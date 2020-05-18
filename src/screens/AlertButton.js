@@ -18,7 +18,7 @@ const AlertButton = () =>{
                 
             </CarruselComponent>
                 <TouchableHighlight style={{...styles.botonAbrir,
-                backgroundColor:"pink"}}
+                backgroundColor:"purple"}}
                 onPress ={() => {setActivar(!activar)}}
 
                 >
@@ -59,8 +59,9 @@ const styles = StyleSheet.create({
         elevation: 5
     },
     botonAbrir: {
-        backgroundColor: "#F194FF",
-        borderRadius: 20,
+        backgroundColor: "purple",
+        borderRadius: 10,
+        width:200,
         padding: 10,
         elevation: 2
     },

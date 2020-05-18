@@ -15,7 +15,7 @@ const HomeScreen = (props) => {
         styles.textInput
       }
   />
-    <Button
+    <Button color= "purple"
       title= "Entrar"
       onPress= {() => props.navigation.navigate("Alert")}
       
@@ -27,16 +27,20 @@ const styles = StyleSheet.create({
   content:{
     justifyContent:   'center',
     marginTop: 50,
-    padding: 20,
-    backgroundColor: '#ffffff'
+    padding: 40,
+  
   },
   text: {
     fontSize: 30
   },
+
   textInput: {
-    borderColor:"black",
+    borderColor:"gray",
     backgroundColor: "white",
-    borderWidth: 1}
+    borderWidth: 1,
+    borderRadius:4,
+    marginBottom:10,
+    elevation:5, },
 });
 
 export default HomeScreen;
